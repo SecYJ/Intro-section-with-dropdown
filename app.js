@@ -7,8 +7,6 @@ const dropdownMobileButtons = document.querySelectorAll(
 	"[data-mobile-dropdown-btn]"
 );
 
-console.log(dropdownMobileButtons);
-
 btnMenu.addEventListener("click", () => {
 	overlay.classList.add("active");
 	sidebar.classList.add("show");
